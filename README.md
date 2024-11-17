@@ -5,6 +5,9 @@
 Support By [ Cloud Rx (<a href='https://rxapis.com'>https://rxapis.com</a>) ].
 * Testing is available until 2025/12/31 23:59.
 
+<img width="1677" alt="스크린샷 2024-11-17 오후 6 21 56" src="https://github.com/user-attachments/assets/cd1e3356-727c-4a79-b916-4300858544aa">
+<img width="1677" alt="스크린샷 2024-11-17 오후 6 22 00" src="https://github.com/user-attachments/assets/a27c8044-5892-435c-82d1-dcab6590a735">
+
 
 ```javascript
 new PocketMonCardEffect({
