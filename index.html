@@ -1,0 +1,64 @@
+<html>
+    <head>
+
+        <script src="./distFiles/RxFramework.js"></script>
+
+        <style>
+            .card {
+                position: absolute;
+                top : calc(50% - 250px);
+                left : calc(50% - 150px);
+                width: 300px;
+                height: 484px;
+            }
+         </style>
+
+        <script>
+
+            const init = () => {
+                new PocketMonCardEffect({
+                    ele : document.getElementById('card'),
+                    
+                    perspective : 2000,
+                    angle : 30,
+                    bgImage : `./banner1.jpeg`,
+                    bgPosition : 'center',
+                    bgSize : 'contain',
+
+                    effectHolo : `./effImg/holo.webp`,
+                    effectHoloMixBlendMode : 'color-dodge',
+                    effectHoloScale : 1,
+                    effectHoloOpacity : .5,
+
+                    effectSparkles : `./effImg/sparkles.webp`,
+                    effectSparklesMixBlendMode : 'color-dodge',
+                    effectSparklesScale : 1,
+                    effectSparklesOpacity : .5,
+
+                    shadow : true,
+                    shadowColor : `rgba(0, 0, 0, 0.5)`,
+                    shadowBlur : 20,
+
+
+                    holography : true,
+                    holographyDistance : 50,
+                    holographyImage : `./ch1.png`,
+                    holographyScale : 1.2,
+
+                });
+            }
+
+            window.onload = function(){
+                // RxFramework Load Time
+                setTimeout(init, 0);
+            }
+        </script>
+
+    </head>
+    <body>
+
+        <div id="card" class="card"></div>
+
+
+    </body>
+</html>
